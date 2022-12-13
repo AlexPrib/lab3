@@ -135,18 +135,3 @@ class DateIteratorFromYears:
             return output
 
 
-# obj = DateIterator()
-# while True:
-#     print(next(obj))
-
-# obj = DateIteratorFromWeeks()
-# while True:
-#     print(next(obj))
-
-# obj = DateIteratorFromYears()
-# while True:
-#     print(next(obj))
-
-# obj = DateIteratorFromXY()
-# while True:
-#     print(next(obj))

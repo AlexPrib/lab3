@@ -106,11 +106,3 @@ def data_to_years(file_name: str, output_directory: str) -> None:
     else:
         raise FileNotFoundError
 
-
-if __name__ == '__main__':
-    try:
-        file_name = 'dataset.csv'
-        data_to_years(file_name)
-
-    except FileNotFoundError:
-        print('No such file exists!')

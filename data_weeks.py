@@ -190,10 +190,3 @@ def data_to_weeks(file_name: str, output_directory: str):
     else:
         raise FileNotFoundError
 
-if __name__ == '__main__':
-    try:
-        file_name = 'dataset.csv'
-        data_to_weeks(file_name)
-
-    except FileNotFoundError:
-        print('No such file exists!')

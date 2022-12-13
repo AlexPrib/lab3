@@ -37,10 +37,4 @@ def divide_data(file_name: str, output_dir: str) -> None:
         raise FileNotFoundError
 
 
-if __name__ == '__main__':
-    try:
-        file_name = 'dataset.csv'
-        divide_data(file_name)
 
-    except FileNotFoundError:
-        print('No such file exists!')
